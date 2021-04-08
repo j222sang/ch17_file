@@ -1,0 +1,7 @@
+파일 입출력 
+영속성(persistance)
+
+영속성을 있게 만드는 방법 - 로컬에 file로 저장, DB에 저장, Net에 저장
+스트림 - 순서가 있는 테이터의 연속적인 흐름 - 
+	- 바이트스트림 (InputStream, OutputStream), 압축, 성능 높음, but 사람이 해석을 못함 
+	- 문자스트림(Reader, Writer), 바이트스트림과 반대

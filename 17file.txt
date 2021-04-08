@@ -1,0 +1,35 @@
+파일 입출력 
+영속성(persistance)
+
+영속성을 있게 만드는 방법 - 로컬에 file로 저장, DB에 저장, Net에 저장
+스트림 - 순서가 있는 테이터의 연속적인 흐름 - 
+	- 바이트스트림 (InputStream, OutputStream), 압축, 성능 높음, but 사람이 해석을 못함 
+	- 문자스트림(Reader, Writer), 바이트스트림과 반대
+스트림들은 연결될 수 있다
+
+문자 인코딩 - 파일간 변환해주는거
+
+dataStream은 기초 자료형만 읽을 수 있다
+
+ObjectStream
+
+Buffer
+
+File 객체는 파일이 아닌 "파일 이름" 을 나타낸다
+
+순서대로 읽고 순서대로 출력하자 because 각각의 타입은 길이가 다르기때문에
+
+직렬화(serialization) - 객체가 가진 데이터들을 순차적인 데이터로 변환하는것
+
+Json - 
+
+네트워크 프로그래밍
+url(uniform resource loactor) => 자원 찾기
+프로토콜 => 통신을 하기 위한 약속
+TCP( transmission control protocol) => 
+	- 신뢰성 있게 통신하기 위하여 먼저 서로간에 연결을 설정한 후에 데이터를 보내고 받는 방식
+UDP( user datagram protocol) =>
+	- 데이터를 몇 개의 고정 길이의 패킷으로 분할하여 전송
+포트 - 가상 선로
+소켓 - TCP를 사용하여 응용 프로그램끼리 통신을 하기 위한 연결 끝점
+	- 서버가 하나의 소켓만을 사용한다면 문제가 발생
